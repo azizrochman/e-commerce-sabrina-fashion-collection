@@ -899,7 +899,7 @@ footer .copyright {
     box-shadow: -20px 0px 25px 20px rgba(0, 0, 0, 0.05);
     position: fixed;
     top: 0;
-    right: -300px;
+    right: -400px;
     height: 100vh;
     width: 100vw;
     padding: 80px 0 0 20px;
@@ -928,7 +928,7 @@ footer .copyright {
   }
 
   #navbar-box.active {
-    right: 280px;
+    right: 0px;
   }
 
   #navbar {
@@ -964,12 +964,87 @@ footer .copyright {
   }
 
   #hero {
-    /* height: 60vh; */
     background-position: top 30% right 30%;
-    padding: 0 20px;
+    padding: 0 100px 0px 20px;
   }
 
   #hero h4 {
     font-size: 16px;
+  }
+
+  #hero h2 {
+    font-size: 40px;
+  }
+
+  #hero h1 {
+    font-size: 46px;
+  }
+  
+  #feature {
+    justify-content: center;
+  }
+
+  #product .pro-container {
+    justify-content: center;
+  }
+
+  #sm-banner {
+    justify-content: center;
+    padding: 40px 0px;
+    gap: 20px;
+  }
+
+  #sm-banner .banner-box {
+    min-width: 100%;
+  }
+
+  #xs-banner {
+    justify-content: center;
+    padding: 0px 0px;
+    margin: 20px 0 60px 0px;
+    gap: 20px;
+  }
+
+  #xs-banner .banner-box {
+    width: 100%;
+    height: 30vh;
+    padding: 20px;
+    margin: 0px 20px;
+  }
+
+  #newsletter {
+    padding: 40px 20px;
+  }
+
+  #newsletter .text h3 {
+    font-size: 26px;
+  }
+
+  #newsletter .text p {
+    font-size: 14px;
+  }
+
+  #newsletter .form {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  footer {
+    padding: 10px 20px;
+  }
+
+  footer .col {
+    margin-top: 20px;
+  }
+
+  footer .col .logo {
+    width: 100%;
+  }
+  footer .col .logo-sosmed {
+    gap: 10px;
+  }
+  footer .col .logo-sosmed i {
+    padding-right: 0px;
+    cursor: pointer;
   }
 }
